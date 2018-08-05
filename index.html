@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Freckle+Face">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1>Tic Tac Toe Game</h1>
+<div id="overlay"></div>
+<section class="winner dialog">
+  <div class="content">
+    <h4>You won</h4>
+      <button class='new-game'>Play Again!</button>
+   </div>		
+</section>
+<section class="draw dialog">
+  <div class="content">
+      <h4>It's a draw</h4>
+      <button class='new-game'>Play Again!</button>
+  </div>
+</section>
+<section class="loser dialog">
+  <div class="content">
+      <h4>You lost</h4>
+      <button class='new-game'>Play again!</button>
+    </div>
+</section>
+<section class="choose dialog">
+  <div class="content">
+        <h3>Choose</h3>
+      <div>
+        <button id="X" class='new-game'>X</button>
+        <span>OR</span>
+        <button id="O" class='new-game'>O</button>
+      </div>
+     </div>
+</section>
+<table id="game-table">
+  <tr>
+    <td class="square"  id="square0"></td>
+    <td class="square"  id="square1"></td>
+    <td class="square"  id="square2"></td>
+  </tr>			
+  <tr>
+    <td class="square"  id="square3"></td>
+    <td class="square"  id="square4"></td>
+    <td class="square"  id="square5"></td>
+  </tr>
+  <tr>
+    <td class="square"  id="square6"></td>
+    <td class="square"  id="square7"></td>
+    <td class="square"  id="square8"></td>
+  </tr>
+</table>
+<br>
+<footer>
+  <p class="made-by"><i class="fa fa-copyright" aria-hidden="true"></i> made by <a href="https://codepen.io/o1ena/full/gmXWrN/" target="_blank">o1ena</a>
+  </p>
+</footer>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
